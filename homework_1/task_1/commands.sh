@@ -8,4 +8,4 @@ grep -c d[ao]lor data.dat
 wc -w < data.dat
 
 #4. Count how many of those start with “mol”?
-grep -c -o "\bmol\w*" data.dat
+grep -c -o "\bmol\w*" data.dat # -o print only the matched parts of a line
