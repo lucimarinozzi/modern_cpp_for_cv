@@ -4,3 +4,10 @@
 **/lib/
 **/build/
 **/bin/
+
+
+# visual studio code
+.vscode/
+
+
+CMakeFiles/
